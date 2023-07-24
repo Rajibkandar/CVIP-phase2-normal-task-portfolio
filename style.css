@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+#navlist{
+    list-style: none;
+    font-size: 2.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+}
+nav{
+    width: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: none;
+    background-color: #e5f0ff;
+    background-image: linear-gradient(62deg, #e5f0ff 0%, #ece8f3 100%);
+
+    
+}
+.navcontainer{
+    width: 100vw;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    font-size: 2.8rem;
+    color: beige;
+}
+#navItem{
+    display: flex;
+    gap: 40px;
+
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
+.description{
+    display: flex;
+    justify-content: space-around;
+}
+.contentBox{
+    width: 100vw;
+    height: 100vh;
+    background-color: #e5f0ff;    
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.portfolio {
+    margin-top: 50px;
+    margin-left: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.project {
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+    background-color: #fff;
+}
+.project button{
+    border-radius: 10px;
+    color: beige;
+    background-color: #4158D0;
+    margin-top: 10px;
+    padding: 10px 12px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.project img {
+    max-width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.project p {
+    margin-top: 5px;
+    color: #666;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.textBox> p{
+    font-size: 2.8rem;
+}
+#button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 250px;
+    padding-top: 130px;
+    gap: 10px;
+}
+#button button{
+    border-radius: 10px;
+    color: beige;
+    background-color: #4158D0;
+    padding: 12px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2rem;
+    transition-duration: 0.4s;
+}
+button:hover{
+    transform: scaleY(1.1);
+}
+
+#Project{
+    background-color: #e5f0ff;
+    background-image: linear-gradient(62deg, #e5f0ff 0%, #ece8f3 100%);
+    width: 100vw;
+    height: 100vh;
+}
+h3{
+    font-size: 1.5rem;
+}
+#contact{
+    background-color: #e5f0ff;
+    width: 100vw;
+    height: 100vh;
+}
+#contact h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.formcontrol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    gap: 50px;
+}
+.formcontrol form{
+    border: 1px solid black;
+}
+input{
+    font-size: 20px;
+}
+#contactForm{
+    font-size: 2rem;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+#contactForm button{
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+.footerBox{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    text-align: center;
+    min-height: 30px;
+}
+
+.footerBox p{
+    color: beige;
+    font-size: 2rem;
+}
